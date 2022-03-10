@@ -1,1 +1,47 @@
+Step one: Ask
+What is the problem you are trying to solve?
+A: What are the differences between casual riders and annual members for using Cyclistic bikes?
+How can your insights drive business decisions?
+A: After identifying the differences, the results can be used to provide some guidelines or suggestions for encouraging the causal riders to buy memberships.
+
+Step two: Prepare
+How is the data organized?
+A: The data include 13 columns and record the details of customers using the bicycle.
+Are there issues with bias or credibility in this data? 
+A: The data don’t have a bias and they are credible since they are provided by the official website
+Does your data ROCCC? 
+A: Reliability: This data is reliable since they are provided by the official website
+Originality: This is an original dataset 
+Comprehensiveness: This data is comprehensive. It includes all customers in the study area.
+Current: This data was collected from 202101 to 202112. 
+Cited: The data has been made available by Motivate International Inc.
+
+Step three: Process
+What tools are you choosing and why?
+A: Python. I have more experience in Python and it is convenient.
+What steps have you taken to ensure that your data is clean? 
+A: Remove duplicate or irrelevant observations and identify whether it includes all required values (none of them should be null). Then investigate whether all categories and values in a database are set in the appropriate format. Afterward, started and ended time should be logical, which means the ended time should be later than the started time. 
+Remove duplicate or irrelevant observations
+Fix structural errors
+Handle missing data
+How can you verify that your data is clean and ready to analyze?
+A: At the end of the data cleaning process, you should be able to answer these questions as a part of basic validation:  Does the data make sense?
+Does the data follow the appropriate rules for its field?
+Does it prove or disprove your working theory, or bring any insight to light?
+Can you find trends in the data to help you form your next theory?
+Have you documented your cleaning process so you can review and share those results?
+A: Yes
+
+Step four: Analyze
+How should you organize your data to perform analysis on it?
+A: I organize the data into dataframe format
+ Has your data been properly formatted?
+A: yes
+What surprises did you discover in the data? 
+A: Members barely use the docked bike and causal people spend more time on trip.
+What trends or relationships did you find in the data? 
+A: The date of different customers using the bikes are different. Casual people prefer to have a trip on Friday and Saturday, while members prefer to use bikes from Monday to Friday. Members have more trips in most months of 2021 (except to July and August), while the length of trips of casual people are higher than that of members in 8 months. The most popular start and end stations for different customers are also different.
+How will these insights help answer your business questions?
+A: They can help us to understand the preferences of causal people including which type of bike they prefer, which locations are their favorite, and when they use the bikes. Based on these investigation, we can understand how, when, and where to use digital media for influencing casual riders to become members.
+
 
